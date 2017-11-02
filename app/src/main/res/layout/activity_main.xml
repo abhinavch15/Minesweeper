@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhinavchinta.minesweeper.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton36"
+        android:layout_toEndOf="@+id/imageButton36" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_above="@+id/imageButton44"
+        android:layout_toRightOf="@+id/imageButton44"
+        android:layout_toEndOf="@+id/imageButton44"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_below="@+id/imageButton34"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/imageButton36"
+        android:layout_toRightOf="@+id/imageButton34"
+        android:layout_toEndOf="@+id/imageButton34" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/icon"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/icon"
+        android:layout_alignTop="@+id/imageButton36"
+        android:layout_toRightOf="@+id/imageButton39"
+        android:layout_toEndOf="@+id/imageButton39"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp" />
+</android.widget.RelativeLayout>
